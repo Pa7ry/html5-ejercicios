@@ -1,0 +1,6 @@
+div.bloque {
+    background-color: rgb(59, 146, 197);
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+};
