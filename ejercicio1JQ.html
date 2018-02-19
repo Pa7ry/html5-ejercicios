@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio jQuery</title>
+        <script src="jquery-3.2.1.js"></script>
+        <script src="ejercicio1JQ.js"></script>
+    </head>
+    <body>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum scelerisque erat, blandit aliquam massa blandit sit amet. Phasellus diam libero, fermentum eget ornare sit amet, luctus non ex. Donec leo nunc, tincidunt vitae justo vel, gravida viverra nunc. Mauris sodales eros ut vehicula maximus. Ut tincidunt ex eget lobortis sodales. Donec ipsum justo, blandit dictum euismod quis, condimentum eu dolor. Morbi vulputate, lectus sed volutpat gravida, velit justo volutpat eros, nec mattis nisi ipsum et libero. Proin ut nisl vitae justo ultricies elementum. Etiam gravida fringilla lectus, et feugiat urna maximus vel. Quisque nec erat in ligula accumsan consequat at id nibh. Proin imperdiet nunc at lacus suscipit, sed varius lectus euismod. Integer at risus nisl. Nulla non commodo tortor. Vestibulum aliquam rutrum fermentum. Nulla ac ligula ex. Phasellus tincidunt mollis arcu, a bibendum diam.</p>
+
+        <p id="p2">Duis vitae interdum metus, vel laoreet enim. Aenean dignissim felis nec posuere accumsan. Quisque fermentum orci ex, vel venenatis odio tristique ut. Fusce neque diam, gravida et sem nec, elementum dignissim tortor. Sed mattis, mauris id faucibus pellentesque, urna lorem maximus nulla, sed mattis nunc nulla vitae justo. In enim nibh, vehicula ut lacus quis, sollicitudin viverra urna. Nunc vitae rutrum lacus. Curabitur ultrices, justo et accumsan luctus, leo lacus scelerisque libero, id rutrum magna lectus ac felis. Vivamus facilisis faucibus neque, pulvinar ultricies mi eleifend ut. Sed quis viverra mauris. Quisque dapibus eros nisl, at dapibus tellus ultrices volutpat. Phasellus sed massa vulputate, mattis risus nec, rutrum libero. Aenean quis ex consequat, molestie lectus vitae, tempor diam. Curabitur lacinia arcu at erat ornare, id euismod nibh molestie. Aliquam vitae dui vestibulum urna interdum placerat. Integer auctor neque non mi imperdiet faucibus.</p>
+        <a href="https://www.facebook.com/">Facebook</a>
+        <a href="https://www.google.es/" id="google">Google</a>
+        <div id="lista">
+        <ul>
+            <li>Uno</li>
+            <li>Dos</li>
+            <li>Tres</li>
+            <li>Cuatro</li>
+            <li>Cinco</li>
+            <li>Seis</li>
+            <li>Siete</li>
+            <li>Ocho</li>
+            <li>Nueve</li>
+            <li>Diez</li>
+        </ul>
+        </div>
+                <form name=”formulario”
+              id=”miformulario”
+              action=”formularios.php”
+              method=”post”
+              enctype=”multipart/form-data”>
+            <div>
+                <input type="text" id="nombre" name="nombre" value="" placeholder="Nombre" required autocomplete="off"/>
+            </div>
+            <div>
+                <input type="tel" id="telefono" name="tel" value="" placeholder="Teléfono" minlenght="9" maxlenght="9" required autocomplete="off">
+            </div>
+            <div>
+                <input type="email" id="mail" name="email" value="" placeholder="Email" minlenght="7" required autocomplete="off"/>
+            </div>
+            <div>
+                <input type="password" id="pass" name="pass" value="" placeholder="Contraseña" required autocomplete="off"/>
+            </div>
+
+        </form>
+    </body>
+</html>

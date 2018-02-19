@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejercicio jQuery</title>
+        <script src="jquery-3.2.1.js"></script>
+        <script src="ejercicio2JQ.js"></script>
+    </head>
+    <body>
+        <div id="parrafos">
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum scelerisque erat, blandit aliquam massa blandit sit amet. Phasellus diam libero, fermentum eget ornare sit amet, luctus non ex. Donec leo nunc, tincidunt vitae justo vel, gravida viverra nunc. Mauris sodales eros ut vehicula maximus. Ut tincidunt ex eget lobortis sodales. Donec ipsum justo, blandit dictum euismod quis, condimentum eu dolor. Morbi vulputate, lectus sed volutpat gravida, velit justo volutpat eros, nec mattis nisi ipsum et libero. Proin ut nisl vitae justo ultricies elementum. Etiam gravida fringilla lectus, et feugiat urna maximus vel. Quisque nec erat in ligula accumsan consequat at id nibh. Proin imperdiet nunc at lacus suscipit, sed varius lectus euismod. Integer at risus nisl. Nulla non commodo tortor. Vestibulum aliquam rutrum fermentum. Nulla ac ligula ex. Phasellus tincidunt mollis arcu, a bibendum diam.</p>  
+        </div>
+        <form name=”formulario”
+        id=”miformulario”
+        action=”formularios.php”
+        method=”post”
+        enctype=”multipart/form-data”>
+            <div>
+                <input type="text" name="nombre" value="" placeholder="Nombre" required autocomplete="off"/>
+            </div>
+            <div>
+                <input type="tel" name="tel" value="" placeholder="Teléfono" minlenght="9" maxlenght="9" required autocomplete="off">
+            </div>
+            <div>
+                <input type="email" name="email" value="" placeholder="Email" minlenght="7" required autocomplete="off"/>
+            </div>
+            <div>
+                <input type="password" name="pass" value="" placeholder="Contraseña" required autocomplete="off"/>
+            </div>
+        </form>
+    </body>
+</html>

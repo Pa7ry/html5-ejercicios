@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+<meta charset="utf-8">
+    <meta name="autor" content="David Vaquero" />
+    <meta name="generator" content="Brackets" />
+    <meta name="copyright" content="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="html, ejemplo xhtml, esqueleto xhtml" />
+    <meta name="description" content="Ejemplo de Esqueleto de HTML5 con Jquery" />
+    <title>Mi titulo</title>
+    <link rel="stylesheet" href="ejercicio5JQ.css">
+    <script src="jquery-3.2.1.js"></script>
+    <script src="jquery.validate.js"></script>
+    <script src="additional-methods.js"></script>
+    <script src="messages_es.js"></script>
+    <script src="ejercicio5JQ.js"></script>
+    </head>
+    <body>
+<div id="login">
+    <form name="formulario"
+          id="loginform"
+          action="formularios.php"
+          method="post"
+          enctype="multipart/form-data">
+        <fieldset>
+            <legend><span>Inicio de sesión</span></legend>
+            <p><input type="text" id="nombre" name="nombre" placeholder="Nombre" required autocomplete="off"/></p>
+            <p><input type="password" id="pass" name="pass" placeholder="Contraseña" required autocomplete="off"/></p>
+            <p><input type="submit" id="submit" name="submit" value="Iniciar sesión"/></p>
+        </fieldset>
+    </form>
+</div>
+<div id="registro">
+    <form name="formulario2"
+      id="registroform"
+      action="formularios.php"
+      method="post"
+      enctype="multipart/form-data">
+    <fieldset>
+        <legend><span>Resgistro de nuevo usuario</span></legend>
+            <p><input type="text" id="nombreNuevo" name="nombre" placeholder="Nombre" required autocomplete="off"/></p>
+            <p><input type="email" id="emailNuevo" name="email" placeholder="Email" required autocomplete="off"/></p>
+            <p><input type="email" id="emailRepetir" name="email2" placeholder="Repetir email" required autocomplete="off"/></p>
+            <p><input type="password" id="passNuevo" name="pass" placeholder="Contraseña" required autocomplete="off"/></p>
+            <p><input type="password" id="passRepetir" name="pass2" placeholder="Repetir contraseña" required autocomplete="off"/></p>
+            <p><label for="aceptarCondiciones">Aceptar los términos y condiciones de uso.
+            </label><input type="checkbox" id="aceptarCondiciones" name="condiciones" required autocomplete="off" checked=checked/></p>
+            <p><input type="submit" id="submitNuevo" name="submit" value="Crear una cuenta"/></p>
+    </fieldset>
+    </form>
+</div>
+    </body>
+</html>
